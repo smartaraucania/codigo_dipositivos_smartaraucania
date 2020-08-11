@@ -21,8 +21,8 @@ bmm150_mag_data value_offset;
 Adafruit_BMP280 bme;
 
 //------------------wifi credentials-------------------//
-const char *ssid = "Kaqix";
-const char *password = "2.4Gwifi332211.,";
+const char *ssid = "my-ssid";
+const char *password = "my-password";
 //------------------wifi credentials-------------------//
 
 void calibrate(uint32_t timeout)
